@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
 *{
     margin: 0 auto;
     padding: 0;
@@ -7,7 +9,34 @@
     width: 400px;
 }
 
+.tudo{
+    width: 1290px;
+    text-emphasis: center;
+}
+
+.container{
+	height: 1000px;
+	width: 1000px;
+	min-height: 75vh;
+	padding: 10px;
+	margin-left: 485px;
+}
+
+
+
+.card{
+	width: 29%;
+	display: inline-block;
+	padding: 10px;
+    border-left: 15px solid #13165C;
+	border-radius: 15px;
+	box-shadow: #8fffde;
+	font-size: 20px;
+}
+
 .visual:hover {
+    display: block;
+    width: 440px;
     background-color: #9EBCDE;
     box-shadow: 5px 2px #9EBCDE;
     transform: scale(1.1);
@@ -15,6 +44,9 @@
   }
 
   .git:hover {
+    display: block;
+    float: right;
+    width: 440px;
     background-color: #9EBCDE;
     box-shadow: 5px 2px #9EBCDE;
     transform: scale(1.1);
@@ -22,6 +54,9 @@
   }
 
   .google:hover {
+    display: block;
+    float: right;
+    width: 440px;
     background-color: #9EBCDE;
     box-shadow: 5px 2px #9EBCDE;
     transform: scale(1.1);
