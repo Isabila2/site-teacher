@@ -6,6 +6,7 @@
     margin: 0 auto;
     padding: 0;
 }
+
 .visual{
     height: 300px;
     width: 400px;
@@ -17,76 +18,60 @@
 }
 
 .container{
-	height: 1000px;
-	width: 1000px;
-	min-height: 75vh;
-	padding: 10px;
-	margin-left: 485px;
+    margin-left: 330px;
 }
 
 a{
     color: #13165C;
     font-weight: bold;
 }
+
+.btn{
+    width: 120px;
+    height: 35px;
+    background-color: #13165C;
+    color: #E7F5FF;
+    font-family: Jura;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #353888;
+}
+
 .card{
-	width: 29%;
+	width: 28%;
 	display: inline-block;
-	padding: 10px;
+	padding: 0px 15px;
     border-left: 15px solid #13165C;
-	box-shadow: #8fffde;
     font-family: Jura;
 	font-size: 20px;
 }
 
-.visual:hover {
-    display: block;
-    width: 440px;
-    background-color: #9EBCDE;
-    box-shadow: 5px 2px #9EBCDE;
-    transform: scale(1.1);
+.card:hover{
+	transform: scale(1.02);
     transition: all 0.5s;
-  }
-
-  .git:hover {
-    display: block;
-    float: right;
-    width: 440px;
-    background-color: #9EBCDE;
-    box-shadow: 5px 2px #9EBCDE;
-    transform: scale(1.1);
-    transition: all 0.5s;
-  }
-
-  .google:hover {
-    display: block;
-    float: right;
-    width: 440px;
-    background-color: #9EBCDE;
-    box-shadow: 5px 2px #9EBCDE;
-    transform: scale(1.1);
-    transition: all 0.5s;
-  }
+}
 
 /* HEAD */
 
 html{
-  height: 1080px;
-  width: 100%;
-  background-image: url(Fundo.png);
-  border: 20px;
+    height: 1080px;
+    width: 100%;
+    background-image: url(Fundo.png);
+    border: 20px;
 }
-
 
 /*animações*/
   
-  #hh {
+#hh{
     animation-duration: 3s;
     animation-name: slidein;
     margin-left: 20%;
     margin-top: 40px;
-  }
+}
   
-  @keyframes slidein {
+@keyframes slidein {
     from {
       margin-left: 100%;
       
@@ -98,12 +83,14 @@ html{
      
       margin-top: 40px;
     }
-  }
+}
 
 
-  #logo{
-    margin-left: 40%;
-  }
+.logo{
+    margin-left: 1585px;
+    margin-top: 200px;
+    width: 300px;
+}
 
   
 
