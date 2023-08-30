@@ -73,7 +73,9 @@ html{
   height: 1080px;
   width: 100%;
   background-image: url(Fundo.png);
+  border: 20px;
 }
+
 
 /*animações*/
   
