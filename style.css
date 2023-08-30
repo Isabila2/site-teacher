@@ -1,3 +1,7 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
 .visual{
     height: 300px;
     width: 400px;
@@ -24,6 +28,15 @@
     transition: all 0.5s;
   }
 
+/* HEAD */
+
+html{
+  height: 1080px;
+  width: 100%;
+  background-image: url(Fundo.png);
+}
+
+/*animações*/
   
   p {
     animation-duration: 3s;
@@ -58,4 +71,6 @@
       transform: translateX(0);
     }
   }
-  
+
+
+
